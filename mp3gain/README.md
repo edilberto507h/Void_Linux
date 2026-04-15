@@ -11,7 +11,11 @@ sudo xbps-install -S base-devel mpg123 mpg123-devel unzip wget
 wget -c https://github.com/edilberto507h/Void_Linux/raw/refs/heads/main/mp3gain/mp3gain-src.zip
 
 unzip mp3gain-src.zip
+
 cd mp3gain-src
+
+make 
+
 sudo cp mp3gain /usr/local/bin/
 
 
