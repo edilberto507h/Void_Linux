@@ -7,7 +7,9 @@ It does not simply do peak amplitude normalization. Instead, it performs statist
 How to compile mp3gain in Void Linux
 
 sudo xbps-install -S base-devel mpg123 mpg123-devel unzip wget
+
 wget -c https://github.com/edilberto507h/Void_Linux/raw/refs/heads/main/mp3gain/mp3gain-src.zip
+
 unzip mp3gain-src.zip
 cd mp3gain-src
 sudo cp mp3gain /usr/local/bin/
