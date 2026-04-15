@@ -35,10 +35,10 @@ cd build
 
 cmake .. -DwxWidgets_CONFIG_EXECUTABLE=/usr/bin/wx-config-gtk3
 
-make -j$(nproc)
+make 
 
 sudo make isntall
 
-
+sudo ln -s /usr/local/share/wxmpgain /usr/share/wxmp3gan
 
 
