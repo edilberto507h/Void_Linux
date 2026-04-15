@@ -37,7 +37,11 @@ cmake .. -DwxWidgets_CONFIG_EXECUTABLE=/usr/bin/wx-config-gtk3
 
 make -j$(nproc)
 
-sudo cp mp3gain /usr/local/bin/
+sudo cp wxmp3gain /usr/local/bin/
+
+wget -c https://github.com/edilberto507h/Void_Linux/raw/refs/heads/main/mp3gain/48x48/wxmp3gain.png
+
+sudo cp wmp3gain.png /usr/share/icons/hicolor/48x48/
 
 
 
